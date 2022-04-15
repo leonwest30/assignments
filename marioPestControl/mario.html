@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mario Pest Control</title>
+    <link rel="stylesheet" href="/marioPestControl/mario.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="title">
+      <h1 class="marioTitle">Mario Pest Control</h1>
+    </div>
+
+    <div class="pest">
+      <div class="goomba">
+        <h2>Goombas</h2>
+        <img src="/marioPestControl/images/Goomba.png" />
+        <h2>5 Coins</h2>
+      </div>
+
+      <div class="bob-ombs">
+        <h2>Bob-ombs</h2>
+        <img src="/marioPestControl/images/Bob-omb.png" />
+        <h2>7 Coins</h2>
+      </div>
+
+      <div class="cheep-cheeps">
+        <h2>Cheep-cheeps</h2>
+        <img src="/marioPestControl/images/CheepCheep.png" />
+        <h2>11 Coins</h2>
+      </div>
+    </div>
+    <div class="boxes">
+      <span class="coinsEarned">How many coins did you earn?</span>
+
+      <form name="marioForm">
+        <label for="goomba">Goombas: </label>
+        <input type="number" name="goomba" />
+
+        <label for="bobomb">Bob-ombs: </label>
+        <input type="number" name="bobomb" />
+
+        <label for="cheepcheep">Cheep-cheeps: </label>
+        <input type="number" name="cheepcheep" />
+
+        <div class="totalBtn">
+          <button class="btn">Calculate the Total</button>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <section class="contactMe">
+        <span class="me">Contact Me!</span>
+      </section>
+      <section class="contact">
+        <div class="mario">
+          <img src="/marioPestControl/images/Mario.png" />
+        </div>
+
+        <div class="info">
+          <ul>
+            <li>
+              <address>
+                1234 Mario Lane <br />
+                New York City, NY
+              </address>
+            </li>
+            <li>mario123@gmail.com</li>
+            <li>https://www.marioworld.com</li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+
+    <script src="/marioPestControl/mario.js"></script>
+  </body>
+</html>
