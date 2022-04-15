@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fly Airlines</title>
+    <link rel="stylesheet" href="/travelForm/travel.css" />
+  </head>
+  <body>
+    <main class="hero">
+      <div>
+        <h1 class="title">Welcome to Fly Airlines</h1>
+        <h3>To get started please fill out the form below.</h3>
+      </div>
+      <form name="inputForm">
+        <label for="fname">First Name: </label>
+        <input type="text" placeholder="Enter First Name" name="fname" />
+        <!-- <br /> -->
+        <label for="lname">Last Name: </label>
+        <input type="text" placeholder="Enter Last Name" name="lname" />
+
+        <label for="age">Age: </label>
+        <input type="number" name="age" />
+
+        <label id="gender" for="gender">Gender: </label>
+        <div class="genderDiv">
+          <label>Male: </label>
+          <input type="radio" name="gender" value="male" />
+          <label> Female: </label>
+          <input type="radio" name="gender" value="female" />
+        </div>
+        <label id="diet" for="food">
+          Do you have any dietary restrictions?
+        </label>
+        <div>
+          <label for="vegetarian">Vegetarian: </label>
+          <input type="checkbox" value="vegetarian" name="food" />
+          <label for="kosher">Kosher: </label>
+          <input type="checkbox" value="kosher" name="food" />
+          <label for="lactose free">Lactose free: </label>
+          <input type="checkbox" value="lactose free" name="food" />
+        </div>
+        <label id="city" for="city">Destination</label>
+        <select name="city">
+          <option value="NYC">New York City</option>
+          <option value="Paris">Paris</option>
+          <option value="Miami">Miami</option>
+        </select>
+        <button class="btn">Submit</button>
+      </form>
+    </main>
+
+    <script src="/travelForm/travel.js"></script>
+  </body>
+</html>

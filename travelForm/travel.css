@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: antiquewhite;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+#gender {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#diet {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#city {
+  margin-top: 5px;
+}
+
+.btn {
+  margin-top: 20px;
+}
