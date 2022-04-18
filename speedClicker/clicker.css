@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* this set the body height the entire page so the end user can click anywhere */
+    min-height: 100vh;
+
+   
+}
