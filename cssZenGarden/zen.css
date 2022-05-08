@@ -15,10 +15,6 @@ body {
     background-size: cover;
     background-position: 0%;
 }
-
-/* .content-wrapper {
-    margin: o auto;
-} */
   
 .headerFlex {
     margin-right: 10em;
@@ -28,8 +24,6 @@ body {
   .container {
       display: grid;
       grid-template-columns: 10fr 5fr;
-      
-      
   }
   
   .grid-col-span-2 {
@@ -73,11 +67,6 @@ body {
     background:rgba(255, 255, 255, 0.3);
 }
 
-
-
-/* .space {
-    margin-left: .1em;
-} */
 
 .nextTest {
     background: rgba(255, 255, 255, 0.1);
@@ -185,12 +174,10 @@ font-size: 1.1em;
 
 }
 
-/* .hr {
-    size: .5em;
-} */
+
 
 .contentOne, .contentTwo, .contentThree {
-    padding: .5em 2em 1em 5em;
+    padding: .5em 2.5em 1em 5em;
 }
 
 .designNav2 {
@@ -214,17 +201,11 @@ font-size: 1.1em;
 .contentTwo {
     background-color: #8abc9f80;
   }
-
-  .sidebarOne{
-    
-  }
   .sidebarTwo{
     background-color: #8abc9fb3;
     background-image: url(/cssZenGarden/images/bamboo.png);
   }
-  .sidebarThree{
-    
-  }
+
 
   .extra {
     display: flex;
@@ -341,15 +322,6 @@ font-size: 1.1em;
 
     .sidebarTwo {
         grid-row-start: 9;
-    }
-
-    .sidebar {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .last4 {
-        grid-column-start: 2;
     }
 
 }
