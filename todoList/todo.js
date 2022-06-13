@@ -61,6 +61,12 @@ function listData(data){
         complete.value = 'true'
         document.getElementById('todo-list').appendChild(complete)
 
+        // added the completed checkbox to stay on refresh.
+        if(data[i].completed == true){
+            complete.checked = true
+        }
+       
+
         complete.addEventListener('click', function() {
 
             const updates = {
